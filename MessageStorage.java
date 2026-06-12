@@ -21,7 +21,7 @@ import java.util.ArrayList;
 public class MessageStorage {
     // Master list of all messages added to storage, regardless of status
     private final ArrayList<Message> allMessages = new ArrayList<>();
-    // Specific lists for categorization
+    // Specific lists for categorisation
     private final ArrayList<Message> sentMessages = new ArrayList<>();
     private final ArrayList<Message> disregardedMessages = new ArrayList<>();
     private final ArrayList<Message> storedMessages = new ArrayList<>();
